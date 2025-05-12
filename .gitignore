@@ -1,0 +1,14 @@
+# Ignore virtual environments
+.venv/
+venv/
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Editor stuff
+.vscode/
+.idea/
+.DS_Store
+
