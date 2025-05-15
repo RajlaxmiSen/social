@@ -16,7 +16,8 @@ class   UserRegistrationForm(UserCreationForm):
         if commit:
             user.save()
         return user
-    
+
+# model from  
 class UserUpdateForm(forms.ModelForm):
     email = forms.EmailField()
 
